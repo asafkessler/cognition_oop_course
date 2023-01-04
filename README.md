@@ -1,2 +1,8 @@
 # cognition_oop_course
-Just a folder for the programing course for cognition students. 
+This is the project of @asafkessler year:2022-2023
+In this folder you can find the solution to all the Hard Programming Exercises,
+of the OOP course for cognitive science.
+
+This project in dedicated to the students of Cognitive Science Degree in the Hebrew University 
+in Jerusalem.
+
