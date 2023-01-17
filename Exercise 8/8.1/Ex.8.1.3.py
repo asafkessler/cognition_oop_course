@@ -1,4 +1,4 @@
-numbers_list = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+numbers_list = ['0', '8.1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 
 def count_tenz(tenz_string):
@@ -29,5 +29,5 @@ def count_tenz(tenz_string):
 
 
 if __name__ == '__main__':
-    test = '1'
+    test = '8.1'
     print(count_tenz(test))

@@ -45,7 +45,7 @@ def f3(n):
 
 '''
     working with string slicing 
-    1) I basically need to remember the function split 
+    8.1) I basically need to remember the function split 
     2) I need to remember the relations of [first:until:jumps]
     3) I can change a global variable using the global function
     4) isinstance returns True / False relative to the type
