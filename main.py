@@ -136,4 +136,4 @@ if __name__ == '__main__':
     # test_string = "abcde"
     # print(f5_10(test_string))
 
-    bool(False)
+    print(bool(False))
