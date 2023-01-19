@@ -1,18 +1,23 @@
 def poem_creator(dict_data):
+    dict= {}
+    s_song = ""
 
-    l_values = list(dict_data.values())
-    l_ints = [x for x in l_values if isinstance(x, int)]
-    min_value = min(l_ints)
+    for curr_key in dict_data:
+        if isinstance(curr_key, int):
+            dict[curr_key] = dict_data[curr_key]
+        else:
+            dict[dict_data[curr_key]] = curr_key
 
-    l_keys = list(dict_data.keys())
-    for curr in l_keys:
-        if curr > min_value:
-            del dict_data[curr]
+    my_keys = list(dict.keys())
+    my_keys.sort()
+    sorted_dict = {i: dict[i] for i in my_keys}
 
-    return dict_data
+    for curr in sorted_dict.values():
+        s_song += curr
 
+    return s_song
 
 if __name__ == '__main__':
-    d = {1:4, 6:34, 3:'b', 2:17, 14:'c' }
+    d = {'ppl':4, 2:'y e','es':5,3:'ats a','El':1}
     print(poem_creator(d))
 
