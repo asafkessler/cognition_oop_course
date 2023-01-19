@@ -8,3 +8,8 @@ The HPE are 4.1(sub ex 7,8), all 4.2,  and all  5-9.
 This project in dedicated to the students of Cognitive Science Degree in the Hebrew University 
 in Jerusalem.
 
+FINISHED ON THE 19.01.2023
+
+I hope it will be helpful for any cognition student.
+I had great time coding it, with love, and happiness Asaf kessler. 
+
