@@ -1,7 +1,14 @@
+def f5_12(S):
+    len_s = len(S)
+    new_s = ""
 
-def f5_12(L):
-    return None
+    for index in range(0, len(s) ,1):
+        new_s += S[index] + str(len_s)
+        len_s -= 1
+
+    return S, new_s
 
 
 if __name__ == "__main__":
-    print("Start coding")
+    s = "abcde"
+    print(f5_12(s))
