@@ -121,8 +121,6 @@ def f5_10(user_string):
     index = 0
     length_str = len(user_string)
     blocks_list.append(user_string[index])
-    index += 1
-
     while index < length_str:
         curr_block = blocks_list[index - 1] + user_string[index]
         blocks_list.append(curr_block)
@@ -134,6 +132,12 @@ def f5_10(user_string):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # test_string = "abcde"
-    # print(f5_10(test_string))
+    # print(f5_10(test_string))ww
 
-    print(bool(False))
+    s = "www.google.com"
+    print(len(s))
+    print(s[4:10])
+    print(s[-10:-4])
+
+    x = [0,1,2,3,4]
+    print(x[4:-1])
